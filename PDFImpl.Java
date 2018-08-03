@@ -29,6 +29,7 @@ new PDFHelper(ctx, fileName,
     }
 
 ////////////////////////////////////////////////Fragment///////////////////////////////////////////////////
+@BindView(R.id.pdfView) PDFView pdfView;
 
 public void showPDF(File file) {
 	//Loading the PDF
